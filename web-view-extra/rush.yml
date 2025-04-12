@@ -1,0 +1,47 @@
+# For a detailed info on this file and supported fields, check out the below link:
+# https://github.com/ShreyashSaitwal/rush-cli/wiki/Metadata-File
+
+---
+name: WebViewExtra
+description: Extension component for WebViewExtra. Created using Rush.<br><br> Written by Juan Antonio Villalpando & TIMAI2 with code and help from Kevinkun,
+  Kumaraswamy and EWPatton
+  .<br><br> 
+  Provides extra features for
+  the webviewer, including... uploading and downloading files, READ & WRITE & MEDIA permissions for app, local/session storage, javascript, file access,
+  modified userAgent, 3rd party cookies, Zoom Controls, Page Display options, Autoplay video with sound - html5video, Transparent Background option, Select 
+  upload and download location. Now handles blob url downloads.<br><br> [More Info](https://ai2.metricrat.co.uk/guides/webviewextra)
+
+version:
+  number: auto
+  name: '2.0'
+
+authors:
+  - JUAN ANTONIO VILLALPANDO
+  - TIMAI2
+  - KEVINKUN
+  - KUMARASWAMY
+  - with help from EWPATTON, SUNNY GUPTA
+
+
+license: "https://creativecommons.org/licenses/by-sa/4.0/"
+
+build:
+  release:
+    # Optimizes the extension on every release build.
+    optimize: true
+
+  # If enabled, you will be able to use Java 8 language features in your extension.
+  desugar:
+    enable: false
+    desugar_deps: false
+
+assets:
+  # Extension icon. This can be a URL or a local image in 'assets' folder.
+  icon: wveicon.png
+  # Extension assets.
+  # other:
+  #   - my_awesome_asset.anything
+
+# Extension dependencies (JAR).
+# deps:
+#   - my_awesome_library.jar
