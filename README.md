@@ -25,3 +25,8 @@ An extension for AI2 AppInventor that extends the features of the native webview
 <img src="web-view-extra/blockImages/component_set_get (1).png"><br>
 <img src="web-view-extra/blockImages/component_set_get (2).png"><br>
 <img src="web-view-extra/blockImages/component_component_block.png"><br>
+
+# More Information
+
+[WebViewExtra on the AI2 community](https://community.appinventor.mit.edu/t/webviewextra-upload-download-files-with-webviewer/76346/140) <br>
+[WebViewExtra on the ai2.metricrat site](https://ai2.metricrat.co.uk/guides/webviewextra)
